@@ -6,7 +6,8 @@
  * @src: input value
  * @n: input value
  *
- * Return: dest */
+ * Return: dest
+ */
 char *_strncat(char *dest, char *src, int n)
 {
 int i;
@@ -24,5 +25,5 @@ i++;
 j++;
 }
 dest[i] = '\0';
-return (dest)
+return (dest);
 }
